@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Adiba Yaseen, Ph.D. - Senior AI Scientist Resume</title>
+<style>
+  @page {
+    size: A4;
+    margin: 12mm 14mm;
+    background-color: #FFFFFF;
+    @bottom-right {
+      content: "Page " counter(page) " of " counter(pages);
+      font-size: 8pt;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: #64748B;
+    }
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+    color: #1E293B;
+    background-color: #FFFFFF;
+    line-height: 1.45;
+    font-size: 9.5pt;
+  }
+
+  /* Header Styles */
+  .header-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 14px;
+    border-bottom: 2px solid #0F172A;
+    padding-bottom: 10px;
+  }
+
+  .name-title {
+    vertical-align: top;
+  }
+
+  .candidate-name {
+    font-size: 20pt;
+    font-weight: 800;
+    color: #0F172A;
+    letter-spacing: -0.5px;
+    margin: 0 0 2px 0;
+    text-transform: uppercase;
+  }
+
+  .candidate-target {
+    font-size: 11pt;
+    font-weight: 600;
+    color: #2563EB;
+    margin: 0 0 6px 0;
+    letter-spacing: 0.2px;
+  }
+
+  .contact-meta {
+    font-size: 8.5pt;
+    color: #475569;
+    margin-bottom: 6px;
+  }
+
+  .contact-item {
+    display: inline-block;
+    margin-right: 12px;
+  }
+
+  .contact-item strong {
+    color: #1E293B;
+  }
+
+  .badge-container {
+    margin-top: 4px;
+  }
+
+  .status-badge {
+    display: inline-block;
+    background-color: #F0FDF4;
+    color: #166534;
+    border: 1px solid #BBF7D0;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 8pt;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+  }
+
+  /* Section Styles */
+  .section {
+    margin-bottom: 12px;
+  }
+
+  .section-title {
+    font-size: 10.5pt;
+    font-weight: 800;
+    color: #0F172A;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    border-bottom: 1.5px solid #E2E8F0;
+    padding-bottom: 3px;
+    margin-top: 0;
+    margin-bottom: 7px;
+    page-break-after: avoid;
+  }
+
+  .section-title span {
+    border-bottom: 2px solid #2563EB;
+    padding-bottom: 3px;
+  }
+
+  .summary-text {
+    font-size: 9.2pt;
+    color: #334155;
+    text-align: justify;
+    margin: 0;
+  }
+
+  /* Skills Grid */
+  .skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 4px;
+  }
+
+  .skills-table td {
+    vertical-align: top;
+    padding: 3px 6px;
+    font-size: 8.8pt;
+  }
+
+  .skill-category {
+    font-weight: 700;
+    color: #0F172A;
+    width: 25%;
+    white-space: nowrap;
+  }
+
+  .skill-list {
+    color: #334155;
+    width: 75%;
+  }
+
+  /* Experience & Education Item */
+  .item-card {
+    margin-bottom: 9px;
+    page-break-inside: avoid;
+  }
+
+  .item-header-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2px;
+  }
+
+  .item-title {
+    font-size: 9.5pt;
+    font-weight: 700;
+    color: #0F172A;
+    text-align: left;
+  }
+
+  .item-date {
+    font-size: 8.5pt;
+    font-weight: 600;
+    color: #64748B;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .item-subtitle {
+    font-size: 8.8pt;
+    font-weight: 600;
+    color: #2563EB;
+    margin-bottom: 4px;
+  }
+
+  ul.bullet-list {
+    margin: 3px 0 0 0;
+    padding-left: 16px;
+  }
+
+  ul.bullet-list li {
+    font-size: 9pt;
+    color: #334155;
+    margin-bottom: 3px;
+    line-height: 1.38;
+  }
+
+  /* Publications & Projects */
+  .pub-item {
+    font-size: 8.8pt;
+    color: #334155;
+    margin-bottom: 6px;
+    line-height: 1.35;
+    page-break-inside: avoid;
+  }
+
+  .pub-item strong {
+    color: #0F172A;
+  }
+
+  .pub-tag {
+    display: inline-block;
+    font-size: 7.5pt;
+    font-weight: 700;
+    padding: 1px 5px;
+    border-radius: 3px;
+    background-color: #EFF6FF;
+    color: #1D4ED8;
+    border: 1px solid #BFDBFE;
+    margin-left: 4px;
+  }
+
+  .pub-tag-green {
+    background-color: #ECFDF5;
+    color: #047857;
+    border: 1px solid #A7F3D0;
+  }
+
+  /* Two Column Table Layout for Education & Honors */
+  .two-col-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .two-col-table td {
+    vertical-align: top;
+    width: 50%;
+  }
+
+</style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <table class="header-table">
+    <tr>
+      <td class="name-title">
+        <h1 class="candidate-name">Adiba Yaseen, Ph.D.</h1>
+        <div class="candidate-target">Senior AI / Machine Learning Scientist &amp; Technical Lead</div>
+        <div class="contact-meta">
+          <span class="contact-item"><strong>Location:</strong> Riyadh, Saudi Arabia</span>
+          <span class="contact-item"><strong>Phone:</strong> +966 58 138 1104</span>
+          <span class="contact-item"><strong>Email:</strong> adibayaseen@gmail.com</span>
+          <span class="contact-item"><strong>Scholar:</strong> adibayaseen</span>
+        </div>
+        <div class="badge-container">
+          <span class="status-badge">&#10003; Transferable Iqama &bull; Available Immediately</span>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <!-- EXECUTIVE SUMMARY -->
+  <div class="section">
+    <div class="section-title"><span>Executive Summary</span></div>
+    <p class="summary-text">
+      Ph.D. Computer Scientist and AI Specialist (PIEAS, top 1% of class) with 6+ years of advanced computational research and technical leadership experience. Proven expertise in architecting graph neural networks (GNNs), deep learning models, predictive bioinformatics algorithms, and high-performance computing pipelines. Track record of tier-1 publications in high-impact Q1/Q2 journals (<em>Bioinformatics</em>, <em>BioData Mining</em>) and end-to-end model development in Python, CUDA, and TensorFlow. Based in Riyadh with a transferable Iqama, dedicated to driving technological innovation and high-performance AI solutions aligned with Saudi Arabia's Vision 2030 digital economy.
+    </p>
+  </div>
+
+  <!-- TECHNICAL SKILLS -->
+  <div class="section">
+    <div class="section-title"><span>Technical Competencies</span></div>
+    <table class="skills-table">
+      <tr>
+        <td class="skill-category">&bull; Machine Learning &amp; AI:</td>
+        <td class="skill-list">Graph Convolutional Networks (GCN), Deep Neural Networks (DNN), CNN, SVM/SVR, Supervised/Unsupervised Learning, Feature Engineering, Ensemble Methods</td>
+      </tr>
+      <tr>
+        <td class="skill-category">&bull; Programming &amp; DBs:</td>
+        <td class="skill-list">Python, C++, C#, C, SQL, Oracle PL/SQL, MATLAB, ASP.NET, Assembly (NASM)</td>
+      </tr>
+      <tr>
+        <td class="skill-category">&bull; Frameworks &amp; Tools:</td>
+        <td class="skill-list">TensorFlow, GPU/CUDA Computing, Scikit-Learn, NumPy, Pandas, PyMOL, Git, Docker, REST APIs</td>
+      </tr>
+      <tr>
+        <td class="skill-category">&bull; High Performance:</td>
+        <td class="skill-list">MPI (Message Passing Interface), Pthreads, Multithreading, Image Processing, High-Dimensional Data Modeling</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- PROFESSIONAL & RESEARCH EXPERIENCE -->
+  <div class="section">
+    <div class="section-title"><span>Professional &amp; Technical Experience</span></div>
+
+    <div class="item-card">
+      <table class="item-header-table">
+        <tr>
+          <td class="item-title">Senior AI Researcher &amp; Computational Lead</td>
+          <td class="item-date">Jun 2018 &ndash; Mar 2025</td>
+        </tr>
+      </table>
+      <div class="item-subtitle">National Research Project (NRPU / PIEAS)</div>
+      <ul class="bullet-list">
+        <li>Architected and benchmarked end-to-end Deep Learning frameworks and Graph Convolutional Neural Networks (GCN) for high-dimensional sequence and molecular interaction modeling.</li>
+        <li>Engineered Support Vector Regression (SVR) and feature extraction pipelines on complex 3D macromolecular structures, achieving state-of-the-art predictive accuracy.</li>
+        <li>Optimized multi-threaded and GPU-accelerated computing workflows (TensorFlow, CUDA, MPI) for high-throughput biomolecular design simulations.</li>
+        <li>Authored 5 peer-reviewed scientific papers published in Q1/Q2 journals (e.g., <em>Bioinformatics</em>, IF: 6.93).</li>
+      </ul>
+    </div>
+
+    <div class="item-card">
+      <table class="item-header-table">
+        <tr>
+          <td class="item-title">Lecturer &amp; Technical Curriculum Lead (CS &amp; IT)</td>
+          <td class="item-date">Nov 2020 &ndash; Jul 2024</td>
+        </tr>
+      </table>
+      <div class="item-subtitle">Department of Computer Science &amp; IT, The University of Lahore</div>
+      <ul class="bullet-list">
+        <li>Led instructional delivery and applied coursework for core technical domains: <em>Artificial Intelligence, Machine Learning, Database Management Systems</em>, and <em>Operating Systems &amp; Networks</em>.</li>
+        <li>Supervised and mentored final-year capstone engineering teams in developing production-ready machine learning pipelines, RESTful APIs, and full-stack software systems.</li>
+        <li>Established hands-on coding labs and automated grading benchmarks for Python, C++, and SQL relational databases.</li>
+      </ul>
+    </div>
+
+    <div class="item-card">
+      <table class="item-header-table">
+        <tr>
+          <td class="item-title">Lecturer (Computer Science)</td>
+          <td class="item-date">Sep 2017 &ndash; Jun 2018</td>
+        </tr>
+      </table>
+      <div class="item-subtitle">Department of Computer Science &amp; IT, The University of Lahore</div>
+      <ul class="bullet-list">
+        <li>Delivered rigorous computer science curricula covering <em>Object-Oriented Programming (C++)</em> and <em>Programming Fundamentals I</em>.</li>
+        <li>Mentored over 150 students in algorithm design, object-oriented paradigms, and modular code architecture.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- KEY TECHNICAL PROJECTS -->
+  <div class="section">
+    <div class="section-title"><span>Selected Technical Projects</span></div>
+
+    <div class="item-card">
+      <table class="item-header-table">
+        <tr>
+          <td class="item-title">Graph-Based Predictive Interaction Engine (GCN &amp; Deep Learning)</td>
+          <td class="item-date">Python, TensorFlow, PyTorch</td>
+        </tr>
+      </table>
+      <ul class="bullet-list">
+        <li>Engineered a deep neural embedding architecture using Graph Convolutional Networks to predict protein-specific inhibitors from topological graph representations.</li>
+      </ul>
+    </div>
+
+    <div class="item-card">
+      <table class="item-header-table">
+        <tr>
+          <td class="item-title">Real-Time Computer Vision &amp; Gesture Recognition System</td>
+          <td class="item-date">C#, Image Processing, Kinect SDK</td>
+        </tr>
+      </table>
+      <ul class="bullet-list">
+        <li>Implemented real-time skeletal tracking, background extraction, and motion classification algorithms for interactive computer vision applications.</li>
+      </ul>
+    </div>
+
+    <div class="item-card">
+      <table class="item-header-table">
+        <tr>
+          <td class="item-title">Enterprise Hospital Management System (HMS)</td>
+          <td class="item-date">ASP.NET, SQL Server, C#</td>
+        </tr>
+      </table>
+      <ul class="bullet-list">
+        <li>Designed a multi-tier database-driven web application with secure role-based access control and high-performance relational query optimization.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section">
+    <div class="section-title"><span>Education</span></div>
+
+    <div class="item-card">
+      <table class="item-header-table">
+        <tr>
+          <td class="item-title">Ph.D. in Computer Science</td>
+          <td class="item-date">Jun 2018 &ndash; Mar 2025</td>
+        </tr>
+      </table>
+      <div class="item-subtitle">Pakistan Institute of Engineering and Applied Sciences (PIEAS)</div>
+      <div style="font-size: 8.8pt; color: #334155; margin-top: 1px;">
+        &bull; <strong>Specialization:</strong> Biomedical Machine Learning &nbsp;|&nbsp; <strong>CGPA:</strong> 3.92 / 4.0 (Top 1% of class)
+      </div>
+    </div>
+
+    <div class="item-card">
+      <table class="item-header-table">
+        <tr>
+          <td class="item-title">M.S. in Computer Science</td>
+          <td class="item-date">Mar 2016 &ndash; Oct 2017</td>
+        </tr>
+      </table>
+      <div class="item-subtitle">Pakistan Institute of Engineering and Applied Sciences (PIEAS)</div>
+      <div style="font-size: 8.8pt; color: #334155; margin-top: 1px;">
+        &bull; <strong>Specialization:</strong> Bioinformatics and Machine Learning &nbsp;|&nbsp; <strong>CGPA:</strong> 3.62 / 4.0 (Top 2% of class)
+      </div>
+    </div>
+
+    <div class="item-card">
+      <table class="item-header-table">
+        <tr>
+          <td class="item-title">B.S. in Computer Engineering</td>
+          <td class="item-date">Oct 2011 &ndash; Oct 2015</td>
+        </tr>
+      </table>
+      <div class="item-subtitle">University of Engineering &amp; Technology (UET), Lahore</div>
+      <div style="font-size: 8.8pt; color: #334155; margin-top: 1px;">
+        &bull; <strong>Specialization:</strong> Image Processing &nbsp;|&nbsp; <strong>CGPA:</strong> 3.357 / 4.0 (Top 10% of class)
+      </div>
+    </div>
+  </div>
+
+  <!-- KEY PUBLICATIONS & HONORS -->
+  <div class="section">
+    <div class="section-title"><span>Key Publications &amp; Honors</span></div>
+    <div class="pub-item">
+      &bull; <strong>Yaseen, A.</strong>, Amin, I., Akhtar, N., Ben-Hur, A., Minhas, F. &ldquo;Insights into performance evaluation of compound&ndash;protein interaction prediction methods.&rdquo; <em>Bioinformatics</em>, 2022. <span class="pub-tag">IF: 6.93</span> <span class="pub-tag pub-tag-green">Q1 Journal</span>
+    </div>
+    <div class="pub-item">
+      &bull; Abbasi, W., <strong>Yaseen, A.</strong>, Ul Hassan, F., Andleeb, S., Minhas, F. &ldquo;SLAND: in-silico protein binding affinity prediction using sequence information.&rdquo; <em>BioData Mining</em>, 2020. <span class="pub-tag">IF: 4.0</span> <span class="pub-tag pub-tag-green">Q2 Journal</span>
+    </div>
+    <div class="pub-item">
+      &bull; <strong>Yaseen, A.</strong>, et al. &ldquo;Protein-Specific Protein&ndash;Protein Interaction Inhibitors using Graph Convolutional Neural Embedding.&rdquo; <em>Submitted, Cell Systems</em>. <span class="pub-tag">IF: 11.09</span> <span class="pub-tag pub-tag-green">Q1 Journal</span>
+    </div>
+    <div style="margin-top: 6px; font-size: 8.8pt; color: #334155;">
+      <strong>Grants &amp; Awards:</strong> HEC NRPU Research Grant (2018&ndash;2022) &bull; PIEAS IT-Endowment Fellowship (2015&ndash;2017) &bull; PEC Merit Scholarship (2011&ndash;2015).
+    </div>
+  </div>
+
+</body>
+</html>
